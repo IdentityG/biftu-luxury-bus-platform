@@ -1,0 +1,238 @@
+@import "tailwindcss";
+
+@theme {
+  --color-biftu-blue: #1b4f9c;
+  --color-biftu-blue-dark: #0e2f63;
+  --color-biftu-blue-tint: #eaf1fb;
+  --color-biftu-red: #d71a21;
+  --color-biftu-red-dark: #a3121a;
+  --color-biftu-red-tint: #fdecec;
+  --color-biftu-white: #ffffff;
+  --color-biftu-paper: #f7f8fa;
+  --color-biftu-ink: #12151a;
+  --color-biftu-ink-soft: #4b5563;
+  --color-biftu-border: #e5e7eb;
+
+  --color-seat-available: #1b4f9c;
+  --color-seat-selected: #d71a21;
+  --color-seat-booked: #c9cdd3;
+
+  --font-display: "Archivo", "Plus Jakarta Sans", sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Noto Sans Ethiopic", sans-serif;
+  --font-ethiopic: "Noto Sans Ethiopic", "Plus Jakarta Sans", sans-serif;
+
+  --spacing-section: 120px;
+  --spacing-section-sm: 72px;
+
+  --radius-xl: 18px;
+  --radius-2xl: 26px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 8px 30px rgba(14, 47, 99, 0.08);
+  --shadow-card-hover: 0 16px 40px rgba(14, 47, 99, 0.14);
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.12);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html,
+body {
+  /* `clip` prevents horizontal overflow WITHOUT creating a scroll container,
+     so `position: sticky` (fleet compare stage, booking summaries) keeps working. */
+  overflow-x: clip;
+  max-width: 100vw;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-biftu-white);
+  color: var(--color-biftu-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+html[lang="am"] body,
+html[lang="am"] .font-display {
+  font-family: var(--font-ethiopic);
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-stretch: expanded;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+.container-biftu {
+  width: 100%;
+  max-width: 1360px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+@media (min-width: 1024px) {
+  .container-biftu {
+    padding-inline: 56px;
+  }
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-biftu-blue);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: var(--color-biftu-blue);
+  color: #fff;
+}
+
+.stripe-motif {
+  background-image: repeating-linear-gradient(
+    115deg,
+    rgba(215, 26, 33, 0.9) 0px,
+    rgba(215, 26, 33, 0.9) 10px,
+    transparent 10px,
+    transparent 34px
+  );
+}
+
+.text-gradient-hero {
+  background: linear-gradient(180deg, #ffffff 50%, #cfe0f7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* outlined twin of the hero headline — the second line */
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.88);
+  letter-spacing: -0.02em;
+}
+@media (max-width: 767px) {
+  .text-outline {
+    -webkit-text-stroke: 1.2px rgba(255, 255, 255, 0.9);
+  }
+}
+
+/* soft vignette + cinematic grain for the hero */
+.hero-vignette::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(120% 82% at 50% 44%, transparent 40%, rgba(10, 26, 55, 0.5) 100%);
+}
+
+.hero-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-grain::after {
+    display: none;
+  }
+}
+
+.grid-lines {
+  background-image: linear-gradient(to right, rgba(27, 79, 156, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(27, 79, 156, 0.06) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+/* thin scrollbars for panels */
+.scroll-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--color-biftu-border);
+  border-radius: 999px;
+}
+
+@keyframes toast-bar {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-55%);
+  }
+}
+
+.animate-ticker {
+  animation: ticker 26s linear infinite;
+  padding-left: 100%;
+}
+
+@keyframes softpulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+  }
+}
+
+.pulse-dot {
+  animation: softpulse 2.2s infinite;
+}
+
+@keyframes sheen {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+  }
+  100% {
+    transform: translateX(320%) skewX(-18deg);
+  }
+}
+
+.sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+  width: 45%;
+  animation: sheen 5.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.admin-surface {
+  background-image: radial-gradient(circle at 1px 1px, rgba(27, 79, 156, 0.09) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+@media print {
+  .print\:hidden {
+    display: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

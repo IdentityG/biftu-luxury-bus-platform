@@ -1,0 +1,690 @@
+{
+  "nav": {
+    "home": "Fuula Duraa",
+    "routes": "Daandiiwwan & Sagantaa",
+    "fleet": "Konkolaattota",
+    "track": "Konkolaataa Koo Hordofi",
+    "about": "Waa'ee Keenya & Quunnamtii",
+    "bookNow": "Amma Qabadhu",
+    "account": "Herrega Koo",
+    "admin": "Bulchiinsa",
+    "menu": "Baafata",
+    "language": "Afaan"
+  },
+  "hero": {
+    "eyebrow": "Konkolaataa magaalaa gidduu qulqullina ol'aanaa Itoophiyaa",
+    "headline": "IMALA OL'AANAA",
+    "title": "Finfinnee irraa hamma dhuma addunyaatti, imala qananii.",
+    "subtitle": "Magaalota kudhan. Ka'umsa guyyaa guyyaa. Konkolaattota GPS'n hordofaman, konkolaachiftoota mirkanaa'an fi tikeetii elektirooniksii afaan keessaniin.",
+    "scroll": "Gadi siiqsi",
+    "destinations": "Eessaaf deema",
+    "liveDepartures": "Ka'umsa itti aanu"
+  },
+  "common": {
+    "from": "Irraa",
+    "to": "Gara",
+    "etb": "Birr",
+    "perSeat": "barcuma tokkoof",
+    "seats": "barcumoota",
+    "seat": "barcuma",
+    "duration": "Yeroo",
+    "price": "Gatii",
+    "continue": "Itti fufi",
+    "back": "Duubatti",
+    "cancel": "Haqi",
+    "close": "Cufi",
+    "save": "Olkaa'i",
+    "search": "Barbaadi",
+    "loading": "Fe'aa jira…",
+    "viewAll": "Hunda ilaali",
+    "learnMore": "Dabalata bari",
+    "callCenter": "Sarara qabiinsaa 8477",
+    "hoursShort": "sa'a",
+    "minutesShort": "daq",
+    "seatsLeft": "{count, plural, one {barcuma # hafe} other {barcumoota # hafan}}",
+    "missingTranslation": "Hiikkaan hin jiru",
+    "all": "Hunda",
+    "reset": "Irra deebi'i",
+    "delete": "Balleessi"
+  },
+  "booking": {
+    "search": {
+      "from": "Irraa",
+      "to": "Gara",
+      "date": "Guyyaa ka'umsaa",
+      "passengers": "Imaltoota",
+      "submit": "Imala barbaadi",
+      "selectCity": "Magaalaa filadhu",
+      "swap": "Magaalota jijjiiri",
+      "title": "Imala kee barbaadi"
+    },
+    "results": {
+      "title": "Imalawwan jiran",
+      "subtitle": "Ka'umsi {count} argame",
+      "filters": "Gingilchaa",
+      "busClass": "Sadarkaa konkolaataa",
+      "departure": "Yeroo ka'umsaa",
+      "sort": "Tartiibaan",
+      "sortPrice": "Gatii xiqqaa",
+      "sortTime": "Ka'umsa duraa",
+      "sortDuration": "Yeroo gabaabaa",
+      "selectSeats": "Barcuma filadhu",
+      "empty": "Imalli gingilchaa keetiin walsimu hin jiru.",
+      "morning": "Ganama",
+      "afternoon": "Waaree booda",
+      "night": "Halkan"
+    },
+    "seats": {
+      "title": "Barcuma kee filadhu",
+      "legend": {
+        "available": "Banaa",
+        "selected": "Filatame",
+        "booked": "Qabame"
+      },
+      "driver": "Konkolaachisaa",
+      "rear": "Duubaa",
+      "summary": "Filannoo kee",
+      "selectedSeats": "Barcumoota filataman",
+      "none": "Amma barcumni hin filatamne",
+      "seatPrice": "Gatii barcumaa",
+      "serviceFee": "Kaffaltii tajaajilaa",
+      "total": "Ida'ama",
+      "holdExpiry": "Barcumni qabameera — {minutes}:{seconds}",
+      "continue": "Gara imaltootaatti",
+      "a11yList": "Tarree barcumaa argamsiisaa",
+      "a11yHint": "Tarree keessaa lakkoofsa barcuma banaa filadhu"
+    },
+    "passengers": {
+      "title": "Odeeffannoo imaltootaa",
+      "subtitle": "Barcuma tokkoof imaltuu tokko. Maqaan waraqaa eenyummaa waliin walsimuu qaba.",
+      "fullName": "Maqaa guutuu",
+      "phone": "Lakkoofsa bilbilaa",
+      "gender": "Saala",
+      "male": "Dhiira",
+      "female": "Dubara",
+      "idNumber": "Lakkoofsa eenyummaa",
+      "saved": "Imaltuu olkaa'ame fayyadami",
+      "continue": "Gara kaffaltiitti",
+      "forSeat": "Barcuma {seat}"
+    },
+    "payment": {
+      "title": "Kaffaltii",
+      "method": "Mala kaffaltii",
+      "telebirr": "Telebirr",
+      "chapa": "Chapa",
+      "cbe": "CBE Birr",
+      "card": "Kaardii addunyaa",
+      "summary": "Cuunfaa ajajaa",
+      "terms": "Seerota imalaa, imala meeshaa fi haquu nan fudhadha.",
+      "pay": "Kaffali & mirkaneessi",
+      "secure": "Dhaabbilee kaffaltii Itoophiyaa hayyamamaniin ni eegama.",
+      "comingSoon": "Kaffaltii onlaayinii",
+      "soon": "Dhiyootti",
+      "gatewayNote": "Kaffaltiin onlaayinii dhaabbilee waliin mirkaneeffamaa jira. Hanga sanatti filannoo lama armaan gadii keessaa tokko fayyadami — barcumni kee karaa lamaanuu ni qabama.",
+      "available": "Amma jiru",
+      "availableHint": "Qabiinsa kana akkamitti kaffaluu akka barbaaddu filadhu.",
+      "transfer": {
+        "title": "Baankii / Telebirr erguu",
+        "hint": "Maallaqa ergi, ergasii suuraa nagahee ol kaa'i.",
+        "accounts": "Kanneen keessaa tokkotti ergi",
+        "amount": "Hamma ergamu:"
+      },
+      "onArrival": {
+        "title": "Yeroo geessu kaffali",
+        "hint": "Amma qabadhu, waajjiratti yookaan yeroo seentu qarshiin kaffali.",
+        "holdTitle": "Barcumni sa'aatii 1 ka'umsa dura qabameera",
+        "holdBody": "Lakkoofsa qabiinsaa kee qabattee waajjira tikeetii dhufii qarshiin kaffali. Sa'aatii tokko dura yoo hin kaffalle barcumni gurgurtaaf ni gadhiifama."
+      },
+      "upload": {
+        "label": "Suuraa mirkaneessa kaffaltii",
+        "cta": "Ol kaa'uuf tuqi yookaan nagahee asitti harkisi",
+        "formats": "JPG, PNG ykn WebP · hamma MB 5 · kaameraan ni danda'ama",
+        "ready": "Nagaheen maxxanfameera",
+        "replace": "Jijjiiri",
+        "required": "Itti fufuuf nagahee kaffaltii kee ol kaa'i.",
+        "errType": "Faayilichi suuraa miti. Suuraa ykn skiriinshoot ol kaa'i.",
+        "errSize": "Suuraan MB 5 ol. Xiqqeessii irra deebi'ii yaali.",
+        "note": "Gareen keenya yeroo hojii keessatti daqiiqaa 30 keessatti mirkaneessa. Yeroo mirkanaa'u SMS ni argatta."
+      },
+      "badge": {
+        "review": "Nagaheen ergameera — mirkaneeffama eeggachaa",
+        "arrival": "Qabameera — waajjiratti kaffali"
+      },
+      "submitProof": "Ergii qabadhu",
+      "reserveSeat": "Barcuma koo qabadhu"
+    },
+    "confirm": {
+      "title": "Barcumni kee mirkanaa'eera",
+      "subtitle": "SMS mirkaneessaa fi tikeetiin afaan keetiin ergameera.",
+      "reference": "Lakkoofsa qabiinsaa",
+      "download": "Tikeetii buufadhu (PDF)",
+      "addCalendar": "Gara kaalandarii dabali",
+      "dashboard": "Gara herrega kootti",
+      "scan": "Yeroo seentu QR kana konkolaachisaaf agarsiisi.",
+      "pass": "Tikeetiiwwan seenuu",
+      "tapToOpen": "guddisuu yookaan maxxansuuf tikeetii tuqi",
+      "signed": "Tikeetii mallatteffame",
+      "gate": "Seenuu"
+    },
+    "steps": {
+      "search": "Barbaacha",
+      "results": "Imalawwan",
+      "seats": "Barcumoota",
+      "passengers": "Imaltoota",
+      "payment": "Kaffaltii",
+      "done": "Xumurame"
+    },
+    "stepOf": "Tarkaanfii {current} / {total}",
+    "back": {
+      "search": "Gara barbaachatti deebi'i",
+      "results": "Gara imalawwaniitti deebi'i",
+      "seats": "Gara barcumootaatti deebi'i",
+      "passengers": "Gara imaltootaatti deebi'i"
+    }
+  },
+  "home": {
+    "stats": {
+      "title": "Daandii hunda irratti amanamaa",
+      "routes": "Daandiiwwan",
+      "departures": "Ka'umsa guyyaatti",
+      "rating": "Sadarkaa giddugaleessaa",
+      "years": "Waggoota tajaajilaa"
+    },
+    "popular": {
+      "eyebrow": "Daandiiwwan jaallataman",
+      "title": "Torban kana Itoophiyaan gara kami deemaa jirti",
+      "subtitle": "Gatii fi ka'umsa itti aanu daandiiwwan keenya irratti.",
+      "next": "Ka'umsa itti aanu",
+      "book": "Daandii kana qabadhu"
+    },
+    "fleet": {
+      "eyebrow": "Konkolaattota",
+      "title": "Sadarkaa sadii. Kunuunsa tokko.",
+      "see": "Konkolaattota hunda ilaali"
+    },
+    "features": {
+      "eyebrow": "Maaliif Biftu",
+      "title": "Imaltuu naannessee kan ijaarame",
+      "f1t": "Konkolaachiftoota mirkanaa'an",
+      "f1d": "Konkolaachisaan hundi hayyamni isaa mirkanaa'ee, fayyaan isaa qoratamee madaalama.",
+      "f2t": "Konkolaattota GPS qaban",
+      "f2d": "Konkolaataa kee kallattiin hordofi, yeroo ga'umsaa qoodi.",
+      "f3t": "Tikeetii battalaa",
+      "f3d": "Afaan Ingiliffaa, Amaariffa yookaan Afaan Oromootiin sekondiidhaan.",
+      "f4t": "Deeggarsa 24/7 — 8477",
+      "f4d": "Sa'aatii kamiyyuu, afaan sadeeniinuu nama dhugaa."
+    },
+    "testimonials": {
+      "eyebrow": "Imaltoota",
+      "title": "Ji'atti imala 12,000, jecha isaaniitiin"
+    },
+    "cta": {
+      "title": "Imaluuf qophooftee?",
+      "subtitle": "Barcumoonni boruu guutamaa jiru.",
+      "button": "Amma Qabadhu"
+    }
+  },
+  "routes": {
+    "header": {
+      "eyebrow": "Daandiiwwan & sagantaa",
+      "title": "Magaalota kudhan, networkii tokko",
+      "subtitle": "Daandii barbaadi, yeroo ka'umsaa fi gatii sadarkaadhaan walbira qabi."
+    },
+    "explorer": {
+      "title": "Qorataa daandii",
+      "map": "Kaartaa",
+      "list": "Tarree",
+      "filter": "Bakka ga'umsaa gingilchi",
+      "all": "Hunda"
+    },
+    "table": {
+      "title": "Gatii & sagantaa",
+      "subtitle": "Yeroo ka'umsaa fi sadarkaa gatii kallattiin.",
+      "departures": "Ka'umsa",
+      "class": "Sadarkaa",
+      "fare": "Gatii"
+    },
+    "agents": {
+      "title": "Bilbilaan ykn waajjiraan qabachuu",
+      "subtitle": "Nama waliin haasa'uu barbaadda? 8477 bilbili yookaan waajjira Biftu kamiyyuu seeni.",
+      "group": "Qabiinsa garee (10+)",
+      "offices": "Waajjira barbaadi"
+    },
+    "faq": {
+      "title": "Imaammata & gaaffii",
+      "q1": "Yeroon haquu hangam?",
+      "a1": "Sa'aatii 12 dura bilisaan haquu; sa'aatii 2 dura 50% deebi'a.",
+      "q2": "Meeshaa hangam fiduu danda'a?",
+      "a2": "VIP fi Business irratti kg 20, Standard irratti kg 15.",
+      "q3": "Seenuuf eenyummaan barbaachisaa?",
+      "a3": "Eeyyee — waraqaa eenyummaa maqaa tikeetii waliin walsimu fidi.",
+      "q4": "Guyyaa imalaa jijjiiruu nan danda'aa?",
+      "a4": "Eeyyee, al tokko, sa'aatii 6 dura."
+    }
+  },
+  "fleet": {
+    "header": {
+      "eyebrow": "Konkolaattota",
+      "title": "Akka xiyyaaraatti kan kunuunfaman",
+      "subtitle": "Konkolaattota haaraa, marsaa murtaa'een tajaajilaman, imala hundaan qulqullaa'an."
+    },
+    "classes": {
+      "title": "Sadarkaa konkolaataa",
+      "scrollHint": "Walbira qabuuf siiqsi",
+      "from": "irraa"
+    },
+    "amenities": {
+      "title": "Tajaajilawwan bal'inaan",
+      "a1t": "Barcuma dabsamu",
+      "a1d": "Hamma 140° kan dabsamu, mataa fi miilla deeggaraa.",
+      "a2t": "To'annoo qilleensaa",
+      "a2d": "AC zoonii lama, ji'a hunda tajaajilamu.",
+      "a3t": "USB chaarjii",
+      "a3d": "Barcuma hunda irratti USB-C fi USB-A.",
+      "a4t": "Bashannana keessaa",
+      "a4d": "Fiilmii, muuziqaa fi kaartaa kallattii.",
+      "a5t": "Hayyama meeshaa",
+      "a5d": "Bakka bal'aa fi mallattoo lakkoofsaa eegamaa.",
+      "a6t": "Dhugaatii",
+      "a6d": "Imala sa'aatii 4 ol bishaan fi nyaata salphaa."
+    },
+    "safety": {
+      "title": "Nageenya & kunuunsa",
+      "subtitle": "Hojii imala tasgabbaa'aa taasisu.",
+      "s1t": "Sakatta'insa konkolaachisaa",
+      "s1d": "Mirkaneessa hayyamaa, muuxannoo waggaa 5 ol.",
+      "s2t": "Telematics",
+      "s2d": "Saffisa fi dadhabbii Finfinnee giddugalaatti erga.",
+      "s3t": "Marsaa tajaajilaa",
+      "s3d": "Km 10,000 hundatti qorannoo guutuu."
+    },
+    "gallery": {
+      "title": "Konkolaataa keessa",
+      "cta": "Sadarkaa kana qabadhu"
+    }
+  },
+  "track": {
+    "header": {
+      "eyebrow": "Hordoffii kallattii",
+      "title": "Konkolaatan koo eessa jira?",
+      "subtitle": "Lakkoofsa qabiinsaa ykn bilbila galchi."
+    },
+    "form": {
+      "ref": "Lakkoofsa qabiinsaa ykn bilbila",
+      "placeholder": "fkn BFT-8A24K1",
+      "submit": "Imala hordofi",
+      "demo": "Lakkoofsa agarsiisaa BFT-8A24K1 yaali"
+    },
+    "map": {
+      "title": "Bakka kallattii",
+      "eta": "Yeroo ga'umsaa",
+      "speed": "Saffisa ammaa",
+      "updated": "Amma haaromfame",
+      "progress": "Deemsa imalaa"
+    },
+    "timeline": {
+      "title": "Haala imalaa",
+      "scheduled": "Sagantaa'e",
+      "boarding": "Seenaa jiru",
+      "departed": "Ka'e",
+      "enroute": "Karaa irra",
+      "arriving": "Ga'aa jira",
+      "completed": "Xumurame"
+    },
+    "crew": {
+      "title": "Konkolaachisaa & konkolaataa",
+      "driver": "Konkolaachisaa",
+      "plate": "Lakkoofsa gabatee",
+      "class": "Sadarkaa",
+      "office": "Waajjira quunnamtii"
+    },
+    "help": {
+      "title": "Imala kee argachuu dadhabdee?",
+      "subtitle": "8477 bilbili yookaan waajjira dhiyoo seeni.",
+      "contact": "Nu quunnami"
+    },
+    "notFound": "Lakkoofsa kanaan imalli socho'aa hin argamne.",
+    "myPasses": {
+      "title": "Ofiin barbaadi",
+      "h": "Tikeetiiwwan koo naafi",
+      "sub": "Bilbila qabiinsaan fayyadame galchi — yookaan lakkoofsa qabiinsaa — tikeetiiwwan kee ni agarsiifamu.",
+      "placeholder": "Bilbila yookaan lakkoofsa qabiinsaa",
+      "empty": "Bilbila kanaan qabiinsi hin argamne. 8477 bilbili.",
+      "found": "qabiinsa {count} argame"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Waa'ee Biftu",
+      "title": "Biftu jechuun ifa ganamaa",
+      "subtitle": "Daandii Finfinnee–Wolayitaa Sodoo irratti konkolaataa tokkoon jalqabne: yeroodhaan ka'uu, boqonnaan ga'uu."
+    },
+    "story": {
+      "title": "Seenaa keenya",
+      "p1": "Biftu Wolayitaa Sodootti hundeeffame; rakkoo imaltoota fageenya dheeraa Itoophiyaa keessaa kaasee dhalate.",
+      "p2": "Har'a magaalota kudhan keessatti konkolaattota ammayyaa hojjechiifna — afaan sadiin, moobaayiliin, Telebirriin.",
+      "m1": "2016",
+      "m1d": "Konkolaataan jalqabaa Finfinnee–Wolayitaa Sodoo.",
+      "m2": "2019",
+      "m2d": "Konkolaattonni 20 ga'an; Hawaasaa fi Arbaa Mincii dabalaman.",
+      "m3": "2022",
+      "m3d": "GPS fi giddugalli to'annoo hojii jalqaban.",
+      "m4": "2024",
+      "m4d": "Qabiinsa onlaayinii afaan sadii fi tikeetii QR."
+    },
+    "stats": {
+      "title": "Milkaa'ina",
+      "years": "Waggoota tajaajilaa",
+      "cities": "Magaalota tajaajilaman",
+      "passengers": "Imaltoota geejjibaman",
+      "fleet": "Konkolaattota tajaajila irra"
+    },
+    "values": {
+      "title": "Maaliif nu waliin imalta",
+      "v1t": "Yeroodhaan, yookaan sababa sitti himna",
+      "v1d": "Ka'umsa 94% daqiiqaa 10 keessatti ka'a.",
+      "v2t": "Mijataa akka sadarkaatti",
+      "v2d": "Sadarkaan Standard keenya illee bakka miilaa bal'aa qaba.",
+      "v3t": "Afaan kee",
+      "v3d": "Fuulli, tikeetiin fi SMS afaan sadiin."
+    },
+    "offices": {
+      "title": "Bakka waajjiraa",
+      "subtitle": "Seeni, qarshiin kaffali, kaartaa barcuma walfakkaataa argadhu.",
+      "call": "Waajjira bilbili",
+      "directions": "Kallattii"
+    },
+    "contact": {
+      "title": "Nu dubbisi",
+      "subtitle": "Gaaffii, qabiinsa garee ykn yaada — guyyaa hojii tokko keessatti deebifna.",
+      "name": "Maqaa kee",
+      "email": "Imeelii",
+      "phone": "Bilbila",
+      "message": "Ergaa",
+      "send": "Ergaa ergi",
+      "sent": "Galatoomi — ergaan kee nu ga'eera.",
+      "line": "Sarara qabiinsaa",
+      "social": "Biftu hordofi"
+    }
+  },
+  "dashboard": {
+    "title": "Herrega koo",
+    "nav": {
+      "overview": "Waliigala",
+      "trips": "Imalawwan koo",
+      "tickets": "Tikeetii",
+      "passengers": "Imaltoota olkaa'aman",
+      "profile": "Piroofaayilii",
+      "support": "Deeggarsa"
+    },
+    "overview": {
+      "next": "Imala kee itti aanu",
+      "countdown": "Kan ka'u",
+      "none": "Imalli dhufu hin jiru.",
+      "bookOne": "Imala qabadhu",
+      "spent": "Waliigala baasii",
+      "trips": "Imalawwan",
+      "points": "Qabxii amanamummaa"
+    },
+    "trips": {
+      "upcoming": "Kan dhufan",
+      "past": "Kan darban",
+      "cancelled": "Kan haqaman",
+      "view": "Tikeetii ilaali",
+      "empty": "Homaa hin jiru."
+    },
+    "tickets": {
+      "title": "Tikeetii elektirooniksii",
+      "download": "PDF buufadhu",
+      "resend": "SMS'n irra deebi'ii ergi",
+      "sent": "Ergameera",
+      "view": "Tikeetii banaa"
+    },
+    "pay": {
+      "paid": "Kaffalameera",
+      "onArrival": "Yeroo geessu kaffali",
+      "review": "Kaffaltiin mirkaneeffamaa jira"
+    },
+    "passengersTab": {
+      "title": "Imaltoota olkaa'aman",
+      "add": "Imaltuu dabali"
+    },
+    "profile": {
+      "title": "Piroofaayilii",
+      "fullName": "Maqaa guutuu",
+      "phone": "Bilbila",
+      "email": "Imeelii",
+      "language": "Afaan filatamaa",
+      "languageHint": "SMS fi tikeetiif kan fayyadu.",
+      "save": "Jijjiirama olkaa'i",
+      "saved": "Piroofaayiliin haaromfame"
+    },
+    "support": {
+      "title": "Deeggarsa",
+      "subtitle": "Sarara qabiinsaa 8477 — sa'aatii 24, afaan sadiin."
+    }
+  },
+  "admin": {
+    "title": "Giddugala hojii",
+    "agentTitle": "Teessuma bakka bu'aa",
+    "nav": {
+      "overview": "Waliigala",
+      "live": "Jaarmayaan socho'aa jiru",
+      "verify": "Iskaanii fi mirkaneessi",
+      "trips": "Imala & Sagantaa",
+      "fleet": "Konkolaattota",
+      "routes": "Daandiiwwan",
+      "bookings": "Qabiinsa",
+      "customers": "Maamiltoota",
+      "offices": "Waajjira & Hojjettoota",
+      "reports": "Gabaasa",
+      "settings": "Qindaa'ina",
+      "site": "Fuula ilaali"
+    },
+    "sub": {
+      "overview": "Haala networkii, galii fi barbaacha barcumaa har'aa",
+      "live": "Konkolaattonni amma karaa irra jiran",
+      "verify": "QR imaltuu iskaani — eenyummaa, barcuma fi haala seenuu",
+      "trips": "Sagantaa uumuu, dhorkuu fi baay'inaan hojiirra oolchuu",
+      "bookings": "Qabiinsa hundi gabatee tokko keessatti",
+      "customers": "Piroofaayilii fi baasii imaltootaa",
+      "fleet": "Konkolaattota, sadarkaa fi hiikkaa",
+      "routes": "Daandiiwwan, gatii fi maqaa magaalota",
+      "offices": "Waajjira, qaaccessii fi hojjettoota",
+      "reports": "Gabaasa fi galii fuudhuu",
+      "settings": "Qindaa'ina gatii beqsisiisa"
+    },
+    "actions": {
+      "manualBooking": "Qabiinsa haaraa"
+    },
+    "footnote": "Lakkoofsotni hundi sirna qabiinsaatiin kallattiin haaromfamu.",
+    "overview": {
+      "revHint": "Galii tikeetii guutuu",
+      "days": "guyyaa {n}",
+      "live": "Amma karaa irra",
+      "liveHint": "Telematics konkolaataa irraa",
+      "allVehicles": "Jaarmayaan banaa",
+      "heatmap": "Kaartaa guutinsa",
+      "heatmapHint": "Guutinsa daandii fi guyyaa",
+      "heatLegend": "Heduu arguuf tuqi",
+      "feed": "Sochii tajaajilaa",
+      "seatDemand": "Barbaacha barcumaa sa'aatiiin",
+      "seatDemandHint": "Dursee konkolaataa dabaluu qabu",
+      "route": "Daandii",
+      "manage": "Daandii bulchi"
+    },
+    "live": {
+      "map": "Jaarmayaan GPS kallattii",
+      "mapHint": "Konkolaattonni jiran hordofaman",
+      "vehicles": "Tajaajila irra",
+      "crew": "Garee hojii konkolaachisaa"
+    },
+    "trips": {
+      "title": "Ijaasaa sagantaa",
+      "hint": "Gatii fi sa'aatii imaltootaaf",
+      "recurring": "Dubbisuu hojiirra oolchuu",
+      "repeatFor": "Turtii",
+      "generate": "Sagantaa uumi",
+      "block": "Imala dhorki",
+      "occupancy": "Guutinsa",
+      "status": "Haala"
+    },
+    "bookings": {
+      "title": "Tarrasa qabiinsaa",
+      "hint": "Lakkoofsa, bilbila ykn eenyummaan barbaadi",
+      "search": "Barbaadi…",
+      "detail": "Galmee qabiinsaa",
+      "noMatch": "Homaa hin arganne.",
+      "none": "Qabiinsi hin jiru.",
+      "reset": "Irra deebi'i"
+    },
+    "customers": {
+      "title": "Tarrasa imaltootaa",
+      "hint": "Qabiinsa dhugaa irraa hojjetame",
+      "empty": "Imaltuu hin jiru."
+    },
+    "offices": {
+      "staff": "Hojjettoota & accessii",
+      "staffHint": "Seera qindeessi",
+      "drivers": "Konkolaachiftota",
+      "driversHint": "Hayyama, muuxannoo fi nageenya"
+    },
+    "routes": {
+      "fareLadder": "Sarara gatii sadarkaadhaan",
+      "mapTitle": "Kaartaa Daandii"
+    },
+    "reports": {
+      "title": "Gabaasa fi saafina",
+      "hint": "Finansii barbaachisu",
+      "refunds": "Deebifama",
+      "tickets": "Tikeetii gurgurame",
+      "avgTicket": "Giddugaleessa tikeetii",
+      "byClass": "Galii sadarkaadhaan",
+      "occTrend": "Adeemsa qabiinsaa",
+      "routeTable": "Qooda daandii",
+      "payments": "Mala kaffaltii"
+    },
+    "settings": {
+      "pricing": "Qindaa'ina gatii",
+      "pricingHint": "Kaffaltii fi yeroon itti kennamu",
+      "fee": "Kaffaltii tajaajilaa",
+      "hold": "Yeroo barcuma qabuu",
+      "tax": "Gibira",
+      "comms": "Beqsisiisa",
+      "commsHint": "Afaan imaltuutiin ergama",
+      "brand": "Biraatii fi afaan",
+      "brandHint": "Maqaan Biftu afaan hunda keessatti Latin dha",
+      "roles": "Gahee & accessii",
+      "rolesHint": "Tartee seera dataa agarsiisa",
+      "items": {
+        "dynamic": {
+          "t": "Gatii dilbataa",
+          "d": "Jimmaataa fi Dilbata 12% dabaluu"
+        },
+        "sms": {
+          "t": "Beqsisiisa SMS",
+          "d": "Afaan imaltuutiin ergama"
+        },
+        "email": {
+          "t": "Imeelii mirkaneessaa",
+          "d": "Afaan sadiin, PDF waliin"
+        },
+        "whatsapp": {
+          "t": "Yaadannoo WhatsApp",
+          "d": "Sa'aatii 24 dura"
+        }
+      }
+    },
+    "verify": {
+      "title": "Iskaanii fi mirkaneessi",
+      "subtitle": "Kaameraa bilbilaan QR iskaani; mallatuun qabiinsa waliin walsimachaa",
+      "placeholder": "Koodii QR ykn lakkoofsa qabiinsaa",
+      "scan": "Mirkaneessi",
+      "camera": "Kaameraa",
+      "identity": "Eenyummaa imaltuu",
+      "pass": "Tikeetii seenuu",
+      "notFound": "Koodii kanaan qabiinsi hin argamne.",
+      "noLocal": "Fuula irratti imala qabadhu — asitti iskaaniif ni mul'ata.",
+      "queue": "Turtii seenuu",
+      "queueHint": "Iskaanii eeggatan hunda",
+      "empty": "Turtiin banaa miti.",
+      "waiting": "Iskaanii eegamaa jira",
+      "waitingHint": "QR barcuma hundaa eenyummaa qaba",
+      "signed": "Mallatuun sirrii dha",
+      "badSig": "Mallatuun hin walsimu — koodichi soba dha. Hin galchisin.",
+      "malformed": "Kun koodii tikeetii Biftu miti.",
+      "boarded": "Galeera"
+    },
+    "kpi": {
+      "revenue": "Galii (guyyaa 30)",
+      "bookings": "Qabiinsa (guyyaa 30)",
+      "occupancy": "Guutinsa giddugaleessaa",
+      "active": "Imala socho'aa"
+    },
+    "charts": {
+      "revenue": "Deemsa galii",
+      "topRoutes": "Daandiiwwan galii guddaa",
+      "occupancy": "Guutinsa sadarkaadhaan"
+    },
+    "table": {
+      "route": "Daandii",
+      "departure": "Ka'umsa",
+      "bus": "Konkolaataa",
+      "status": "Haala",
+      "seats": "Barcuma",
+      "ref": "Lakkoofsa",
+      "passenger": "Imaltuu",
+      "amount": "Hamma",
+      "actions": "Gochaalee",
+      "checkin": "Galmee",
+      "refund": "Deebisuu",
+      "export": "CSV baasi",
+      "phone": "Bilbila",
+      "occupancy": "Guutinsa"
+    },
+    "editor": {
+      "title": "Gulaalaa hiikkaa",
+      "hint": "Osoo hin maxxansin dura afaan sadanuu guuti.",
+      "save": "Galmee olkaa'i"
+    },
+    "confirm": {
+      "title": "Galmee kana bal'eesi?",
+      "body": "{name} gurgurtaa irraa hatattamaan ba'a. Qabiinsi jiru garaa duratti ni hojjeta."
+    },
+    "pay": {
+      "title": "Haala kaffaltii",
+      "review": "Nagaheen ol kaa'ameera — mirkaneessa kee eeggachaa",
+      "due": "Qarshiin waajjiratti ykn balbala irratti kaffalama",
+      "paid": "Kaffaltiin mirkanaa'eera",
+      "approve": "Kaffaltii mirkaneessi",
+      "reject": "Nagahee kuffisi",
+      "approved": "Kaffaltiin mirkanaa'e",
+      "rejected": "Nagaheen kuffifame",
+      "rejectedBody": "Qabiinsi gara 'yeroo geessu kaffali' jijjiirame; imaltuun SMS'n beeksifameera."
+    },
+    "gate": {
+      "title": "Hojjettootaaf qofa",
+      "subtitle": "Giddugalli kun imala, konkolaattota, gatii fi qabiinsa bulcha. Itti fufuuf gahee hojjetaadhaan seeni.",
+      "signInAs": "Itti fufi akka"
+    },
+    "banner": "Akka {role}tti seenteetta — jijjiiramni asii kallattiin sirna qabiinsaatti ni hojjeta."
+  },
+  "errors": {
+    "required": "Dirreen kun barbaachisaadha",
+    "minName": "Yoo xiqqaate qubee 3 galchi",
+    "phone": "Lakkoofsa bilbilaa sirrii galchi",
+    "email": "Imeelii sirrii galchi",
+    "sameCity": "Ka'umsi fi ga'umsi adda ta'uu qabu",
+    "terms": "Itti fufuuf seerota fudhadhu"
+  },
+  "footer": {
+    "tagline": "Imala konkolaataa magaalaa gidduu qulqullina ol'aanaa Itoophiyaa keessatti.",
+    "explore": "Qori",
+    "support": "Deeggarsa",
+    "legal": "Seera",
+    "terms": "Seerota imalaa",
+    "privacy": "Iccitii",
+    "refunds": "Imaammata deebisuu",
+    "rights": "Mirgi hundi seeraan eegameera."
+  }
+}
